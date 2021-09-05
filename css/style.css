@@ -1,3 +1,72 @@
-.hidden{
+body{
+}
+
+#quote{
+text-align: center;
+font-family:  Georgia, 'Times New Roman', Times, serif;
+padding-top: 20px;
+color: bisque;
+}
+#clock{
+    padding-top: 180px;
+    font-size: 180pt;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:gainsboro;
+}
+
+
+
+#todo-form {
+   padding-top: 20px;
+    font-size: 15pt;
+    text-align: center;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+}
+
+#todo-form input {
+    margin: 15px;
+    border:none;
+    margin: 15px;
+    text-align: center;
+    background-color: transparent;
+}
+#todo-list {
+    font-size: 10pt;
+    text-align: center;
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+
+#weather {
+    margin: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hidden { 
     display: none;
+}
+
+#greeting {
+    font-size: 60pt;
+    text-align: center; 
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;  
+}
+
+#login-form{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 15pt;
+    margin: 20px 10px;
+}
+#login-form input {
+   border: none;
+    background-color: transparent;
 }

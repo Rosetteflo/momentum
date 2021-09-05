@@ -5,28 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Momentum-1</title>
 </head>
 <body>
+    <!-- login -->
     <form class="hidden" id="login-form">
-    <input  required maxlength ="15" 
-    type="text" placeholder="What is your name?" />
+    <input  required maxlength ="15" type="text" placeholder="What is your name?" />
     <input type ="submit" value="Log In" />
     </form>
-    <h2 id="clock">00:00:00</h2>
+    <!-- clock -->
+    
+    <h2 id="clock"></h2>
+    
+    <!-- hello user -->
     <h1 id="greeting" class="hidden"></h1>
+    <!-- todoform -->
     <form id="todo-form">
         <input type="text" placeholder="Write a To do and Press Enter" required/>
     </form>
-    <ul id="todo-list"></ul>
+    <!-- todolist -->
+    <ul id="todo-list">
+        <!-- javascript로 사용자 리스트 추가 -->
+    </ul>
+    <!-- quote -->
     <div id="quote">
+        <div></div>
+        <div></div>
+    </div>
+    <!-- weather -->
+    <div id="weather">
         <span></span>
         <span></span>
     </div>
+    <script src="https://kit.fontawesome.com/d1ee6b5ba6.js" crossorigin="anonymous"></script>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quote.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
