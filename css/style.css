@@ -1,28 +1,27 @@
 body{
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-image: url('https://cdn.pixabay.com/photo/2022/07/27/20/29/bumble-bee-7348702_1280.jpg');
 }
+
+*{color: aliceblue;}
 
 #quote{
 text-align: center;
-font-family:  Georgia, 'Times New Roman', Times, serif;
-padding-top: 20px;
-color: bisque;
+padding: 20px;
 }
 #clock{
     padding-top: 180px;
-    font-size: 180pt;
+    font-size: 150pt;
     text-align: center;
-    font-family: 'Lobster', cursive;
-    color:gainsboro;
 }
 
 
 
 #todo-form {
-   padding-top: 20px;
-    font-size: 15pt;
+   padding-top: 10px;
+    font-size: 10pt;
     text-align: center;
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-    color: cornsilk;
 }
 
 #todo-form input {
@@ -38,16 +37,11 @@ color: bisque;
     margin: 15px;
     border: none;
     background-color: transparent;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
 }
 
 
 
 #weather {
-    margin: 20px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hidden { 
@@ -55,18 +49,16 @@ color: bisque;
 }
 
 #greeting {
-    font-size: 60pt;
+    font-size: 40pt;
     text-align: center; 
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-    color:whitesmoke;  
 }
 
 #login-form{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 15pt;
-    margin: 20px 10px;
+    font-size: 10pt;
+    margin: 5px;
 }
 #login-form input {
-   border: none;
-    background-color: transparent;
+   border: snow;
+background-color: transparent;
+text-underline-position: below snow;
 }
